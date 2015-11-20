@@ -1,0 +1,63 @@
+<html>
+<body bgcolor="gray" >
+       <Form>
+    
+        <title>Calculater</title>
+		<head>
+        <script language="javascript">          
+                function Addition()
+                {
+                        var val1 = parseInt(document.getElementById("input1").value);
+                        var val2 = parseInt(document.getElementById("input2").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = val1 + val2;
+						
+                }
+        </script>
+		<script language="javascript">
+                function Subtraction()
+                {
+                        var val1 = parseInt(document.getElementById("input1").value);
+                        var val2 = parseInt(document.getElementById("input2").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = val1 - val2;
+						
+                }
+				function  Multiplication()
+                {
+                        var val1 = parseInt(document.getElementById("input1").value);
+                        var val2 = parseInt(document.getElementById("input2").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = val1 * val2;
+                }
+				function Division()
+                {
+                        var val1 = parseInt(document.getElementById("input1").value);
+                        var val2 = parseInt(document.getElementById("input2").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = val1 / val2;
+      
+						
+                }
+        </script>
+		
+  </head>
+  <body align="center">
+		<h1>Calculater<h1>
+		
+            <h2>Input-1st  &nbsp&nbsp&nbsp&nbsp&nbsp    <input type="text" id="input1" name="input1" value=""/>
+		<br>
+        Input-2nd  &nbsp&nbsp&nbsp&nbsp        <input type="text" id="input2" name="input2" value=""/>
+		<br>
+Functions  &nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" name="Sumbit" value=" + " onclick="javascript:Addition()"/> &nbsp
+		<input type="button" name="Sumbit" value=" - " onclick="javascript:Subtraction()"/> &nbsp
+		<input type="button" name="Sumbit" value=" * " onclick="javascript: Multiplication()"/> &nbsp
+		<input type="button" name="Sumbit" value=" / " onclick="javascript:Division()"/>
+		<br>
+		
+		
+Result   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp <input type="text" id="answer" name="answer" value=""/>
+
+   </form>    
+  </body>
+</html>
