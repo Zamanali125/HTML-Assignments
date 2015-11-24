@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+My Web Page
+</title>
+<style type="text/css">
+h1{border:2px solid; background-color:orange;}
+li{
+display:inline;
+padding-left:150px;
+padding-right:20px;
+}
+</style>
+</head>
+<body>
+<h1>zaMan ALi</h1>
+<img src="zaMan-1.jpg" height="396" width="720" border="2px">
+<ul>
+<a href="trial.html/About me">About me</a>
+<li>
+<a href="trial.html">Programming skills</a>
+</li>
+<li>
+<a href="trial.html">Hobbies</a>
+</li>
+<li>
+
+<a href="trial.html">Contact me</a>
+</li>
+</ul>
+<a href="trial.html">
+<h2>
+About me</a>
+<h3>
+I'm Zaman Ali
+From BahawalPur, Studing in (BS-IT) from Isalmia university Bahawalpur & doing Internship From V.I.P(Virtual Internship Program).
+</h3>
+</h2>
+</body>
+</html>
